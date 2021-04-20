@@ -53,6 +53,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
@@ -70,6 +71,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
@@ -84,8 +86,6 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -340,6 +340,16 @@ namespace AkaryakıtOtomasyonUygulaması
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "   FİYAT BİLGİLERİ";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(289, 276);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(236, 49);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "FİYAT BİLGİLERİNİ GÜNCELLE";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(425, 226);
@@ -499,6 +509,16 @@ namespace AkaryakıtOtomasyonUygulaması
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "   SATIŞ YAP";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(402, 84);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 176);
+            this.button3.TabIndex = 15;
+            this.button3.Text = "SATIŞ YAP";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // comboBox1
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -507,6 +527,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(220, 26);
             this.comboBox1.TabIndex = 14;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // numericUpDown5
             // 
@@ -614,24 +635,6 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label22.Size = new System.Drawing.Size(107, 18);
             this.label22.TabIndex = 0;
             this.label22.Text = "YAKIT TÜRÜ";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(289, 276);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(236, 49);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "FİYAT BİLGİLERİNİ GÜNCELLE";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(402, 84);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 176);
-            this.button3.TabIndex = 15;
-            this.button3.Text = "SATIŞ YAP";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
