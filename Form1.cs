@@ -32,6 +32,11 @@ namespace AkaryakıtOtomasyonUygulaması
         double F_benzin95 = 0, F_benzin97 = 0, F_dizel = 0, F_eurodizel = 0, F_lpg = 0;
         double S_benzin95 = 0, S_benzin97 = 0, S_dizel = 0, S_eurodizel = 0, S_lpg = 0;
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.Text== "Benzin (95)")
@@ -135,9 +140,6 @@ namespace AkaryakıtOtomasyonUygulaması
             numericUpDown3.Value = 0;
             numericUpDown4.Value = 0;
             numericUpDown5.Value = 0;
-
-
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -274,7 +276,7 @@ namespace AkaryakıtOtomasyonUygulaması
 
         }
 
-  
+   
 
         string[] depo_bilgileri;
         string[] fiyat_bilgileri;
@@ -289,7 +291,7 @@ namespace AkaryakıtOtomasyonUygulaması
             D_lpg = Convert.ToDouble(depo_bilgileri[4]);
 
         }
-
+         
         private void txt_depo_yaz()
         {
             label6.Text = D_benzin95.ToString("N");

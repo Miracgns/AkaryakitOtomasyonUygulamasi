@@ -110,7 +110,7 @@ namespace AkaryakıtOtomasyonUygulaması
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.Teal;
+            this.tabPage1.BackColor = System.Drawing.Color.PaleTurquoise;
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.progressBar5);
             this.tabPage1.Controls.Add(this.progressBar4);
@@ -132,7 +132,8 @@ namespace AkaryakıtOtomasyonUygulaması
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.ForeColor = System.Drawing.Color.Maroon;
+            this.tabPage1.Font = new System.Drawing.Font("Lucida Fax", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage1.ForeColor = System.Drawing.Color.Red;
             this.tabPage1.Location = new System.Drawing.Point(4, 27);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -143,178 +144,181 @@ namespace AkaryakıtOtomasyonUygulaması
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(436, 264);
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.ForeColor = System.Drawing.Color.Gray;
+            this.button1.Location = new System.Drawing.Point(436, 258);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 62);
+            this.button1.Size = new System.Drawing.Size(163, 82);
             this.button1.TabIndex = 20;
             this.button1.Text = "DEPO BİLGİLERİNİ GÜNCELLE";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // progressBar5
             // 
-            this.progressBar5.Location = new System.Drawing.Point(436, 223);
+            this.progressBar5.Location = new System.Drawing.Point(436, 221);
             this.progressBar5.Name = "progressBar5";
-            this.progressBar5.Size = new System.Drawing.Size(150, 26);
+            this.progressBar5.Size = new System.Drawing.Size(163, 26);
             this.progressBar5.TabIndex = 19;
             // 
             // progressBar4
             // 
-            this.progressBar4.Location = new System.Drawing.Point(436, 189);
+            this.progressBar4.Location = new System.Drawing.Point(436, 176);
             this.progressBar4.Name = "progressBar4";
-            this.progressBar4.Size = new System.Drawing.Size(150, 26);
+            this.progressBar4.Size = new System.Drawing.Size(163, 26);
             this.progressBar4.TabIndex = 18;
             // 
             // progressBar3
             // 
-            this.progressBar3.Location = new System.Drawing.Point(436, 151);
+            this.progressBar3.Location = new System.Drawing.Point(436, 135);
             this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(150, 26);
+            this.progressBar3.Size = new System.Drawing.Size(163, 26);
             this.progressBar3.TabIndex = 17;
             // 
             // progressBar2
             // 
-            this.progressBar2.Location = new System.Drawing.Point(436, 111);
+            this.progressBar2.Location = new System.Drawing.Point(436, 91);
             this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(150, 26);
+            this.progressBar2.Size = new System.Drawing.Size(163, 26);
             this.progressBar2.TabIndex = 16;
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(436, 67);
+            this.progressBar1.Location = new System.Drawing.Point(436, 46);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(150, 26);
+            this.progressBar1.Size = new System.Drawing.Size(163, 26);
             this.progressBar1.TabIndex = 15;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(333, 224);
+            this.textBox5.Location = new System.Drawing.Point(333, 221);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(62, 26);
+            this.textBox5.Size = new System.Drawing.Size(62, 32);
             this.textBox5.TabIndex = 14;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(333, 189);
+            this.textBox4.Location = new System.Drawing.Point(333, 176);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(62, 26);
+            this.textBox4.Size = new System.Drawing.Size(62, 32);
             this.textBox4.TabIndex = 13;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(333, 148);
+            this.textBox3.Location = new System.Drawing.Point(333, 135);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(62, 26);
+            this.textBox3.Size = new System.Drawing.Size(62, 32);
             this.textBox3.TabIndex = 12;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(333, 103);
+            this.textBox2.Location = new System.Drawing.Point(333, 91);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(62, 26);
+            this.textBox2.Size = new System.Drawing.Size(62, 32);
             this.textBox2.TabIndex = 11;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(333, 67);
+            this.textBox1.Location = new System.Drawing.Point(333, 46);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(62, 26);
+            this.textBox1.Size = new System.Drawing.Size(62, 32);
             this.textBox1.TabIndex = 10;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(244, 229);
+            this.label10.Location = new System.Drawing.Point(233, 229);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 18);
+            this.label10.Size = new System.Drawing.Size(87, 24);
             this.label10.TabIndex = 9;
             this.label10.Text = "label10";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(244, 194);
+            this.label9.Location = new System.Drawing.Point(233, 184);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(56, 18);
+            this.label9.Size = new System.Drawing.Size(74, 24);
             this.label9.TabIndex = 8;
             this.label9.Text = "label9";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(244, 153);
+            this.label8.Location = new System.Drawing.Point(233, 143);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 18);
+            this.label8.Size = new System.Drawing.Size(74, 24);
             this.label8.TabIndex = 7;
             this.label8.Text = "label8";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(244, 108);
+            this.label7.Location = new System.Drawing.Point(233, 99);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 18);
+            this.label7.Size = new System.Drawing.Size(74, 24);
             this.label7.TabIndex = 6;
             this.label7.Text = "label7";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(244, 67);
+            this.label6.Location = new System.Drawing.Point(233, 54);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 18);
+            this.label6.Size = new System.Drawing.Size(74, 24);
             this.label6.TabIndex = 5;
             this.label6.Text = "label6";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(105, 229);
+            this.label5.Location = new System.Drawing.Point(80, 229);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 18);
+            this.label5.Size = new System.Drawing.Size(50, 24);
             this.label5.TabIndex = 4;
             this.label5.Text = "LPG";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(105, 194);
+            this.label4.Location = new System.Drawing.Point(80, 184);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 18);
+            this.label4.Size = new System.Drawing.Size(134, 24);
             this.label4.TabIndex = 3;
             this.label4.Text = "EURO DİZEL";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(105, 153);
+            this.label3.Location = new System.Drawing.Point(80, 143);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 18);
+            this.label3.Size = new System.Drawing.Size(69, 24);
             this.label3.TabIndex = 2;
             this.label3.Text = "DİZEL";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(105, 108);
+            this.label2.Location = new System.Drawing.Point(80, 99);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 18);
+            this.label2.Size = new System.Drawing.Size(133, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "BENZİN (97)";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(105, 67);
+            this.label1.Location = new System.Drawing.Point(80, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 18);
+            this.label1.Size = new System.Drawing.Size(133, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "BENZİN (95)";
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.Aqua;
+            this.tabPage2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Controls.Add(this.textBox10);
             this.tabPage2.Controls.Add(this.textBox9);
@@ -332,6 +336,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.tabPage2.Controls.Add(this.label13);
             this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.label11);
+            this.tabPage2.Font = new System.Drawing.Font("Lucida Fax", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage2.ForeColor = System.Drawing.Color.Maroon;
             this.tabPage2.Location = new System.Drawing.Point(4, 27);
             this.tabPage2.Name = "tabPage2";
@@ -342,47 +347,50 @@ namespace AkaryakıtOtomasyonUygulaması
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(289, 276);
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.RosyBrown;
+            this.button2.Location = new System.Drawing.Point(521, 75);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(236, 49);
+            this.button2.Size = new System.Drawing.Size(130, 183);
             this.button2.TabIndex = 16;
             this.button2.Text = "FİYAT BİLGİLERİNİ GÜNCELLE";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(425, 226);
+            this.textBox10.Location = new System.Drawing.Point(411, 226);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 26);
+            this.textBox10.Size = new System.Drawing.Size(100, 32);
             this.textBox10.TabIndex = 15;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(425, 186);
+            this.textBox9.Location = new System.Drawing.Point(411, 186);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 26);
+            this.textBox9.Size = new System.Drawing.Size(100, 32);
             this.textBox9.TabIndex = 14;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(425, 149);
+            this.textBox8.Location = new System.Drawing.Point(411, 149);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 26);
+            this.textBox8.Size = new System.Drawing.Size(100, 32);
             this.textBox8.TabIndex = 13;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(425, 109);
+            this.textBox7.Location = new System.Drawing.Point(411, 109);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 26);
+            this.textBox7.Size = new System.Drawing.Size(100, 32);
             this.textBox7.TabIndex = 12;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(425, 75);
+            this.textBox6.Location = new System.Drawing.Point(411, 75);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 26);
+            this.textBox6.Size = new System.Drawing.Size(100, 32);
             this.textBox6.TabIndex = 11;
             // 
             // label21
@@ -398,7 +406,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(286, 229);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(66, 18);
+            this.label20.Size = new System.Drawing.Size(87, 24);
             this.label20.TabIndex = 9;
             this.label20.Text = "label20";
             // 
@@ -407,7 +415,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(286, 189);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(66, 18);
+            this.label19.Size = new System.Drawing.Size(87, 24);
             this.label19.TabIndex = 8;
             this.label19.Text = "label19";
             // 
@@ -416,7 +424,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(286, 152);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(66, 18);
+            this.label18.Size = new System.Drawing.Size(87, 24);
             this.label18.TabIndex = 7;
             this.label18.Text = "label18";
             // 
@@ -425,7 +433,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(286, 112);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(66, 18);
+            this.label17.Size = new System.Drawing.Size(87, 24);
             this.label17.TabIndex = 6;
             this.label17.Text = "label17";
             // 
@@ -434,7 +442,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(286, 78);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(66, 18);
+            this.label16.Size = new System.Drawing.Size(87, 24);
             this.label16.TabIndex = 5;
             this.label16.Text = "label16";
             // 
@@ -443,7 +451,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(121, 229);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(38, 18);
+            this.label15.Size = new System.Drawing.Size(50, 24);
             this.label15.TabIndex = 4;
             this.label15.Text = "LPG";
             // 
@@ -452,7 +460,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(121, 184);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(101, 18);
+            this.label14.Size = new System.Drawing.Size(134, 24);
             this.label14.TabIndex = 3;
             this.label14.Text = "EURO DİZEL";
             // 
@@ -461,7 +469,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(121, 147);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 18);
+            this.label13.Size = new System.Drawing.Size(69, 24);
             this.label13.TabIndex = 2;
             this.label13.Text = "DİZEL";
             // 
@@ -470,7 +478,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(121, 112);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(99, 18);
+            this.label12.Size = new System.Drawing.Size(133, 24);
             this.label12.TabIndex = 1;
             this.label12.Text = "BENZİN (97)";
             // 
@@ -479,13 +487,13 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(121, 78);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(99, 18);
+            this.label11.Size = new System.Drawing.Size(133, 24);
             this.label11.TabIndex = 0;
             this.label11.Text = "BENZİN (95)";
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.tabPage3.BackColor = System.Drawing.Color.Gray;
             this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.comboBox1);
             this.tabPage3.Controls.Add(this.numericUpDown5);
@@ -501,6 +509,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.tabPage3.Controls.Add(this.label24);
             this.tabPage3.Controls.Add(this.label23);
             this.tabPage3.Controls.Add(this.label22);
+            this.tabPage3.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.tabPage3.Location = new System.Drawing.Point(4, 27);
             this.tabPage3.Name = "tabPage3";
@@ -511,12 +520,15 @@ namespace AkaryakıtOtomasyonUygulaması
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Red;
+            this.button3.Font = new System.Drawing.Font("Lucida Fax", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Gray;
             this.button3.Location = new System.Drawing.Point(402, 84);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 176);
+            this.button3.Size = new System.Drawing.Size(111, 176);
             this.button3.TabIndex = 15;
             this.button3.Text = "SATIŞ YAP";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // comboBox1
@@ -525,7 +537,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(257, 36);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(220, 26);
+            this.comboBox1.Size = new System.Drawing.Size(256, 30);
             this.comboBox1.TabIndex = 14;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -533,35 +545,35 @@ namespace AkaryakıtOtomasyonUygulaması
             // 
             this.numericUpDown5.Location = new System.Drawing.Point(257, 234);
             this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(120, 26);
+            this.numericUpDown5.Size = new System.Drawing.Size(120, 30);
             this.numericUpDown5.TabIndex = 13;
             // 
             // numericUpDown4
             // 
             this.numericUpDown4.Location = new System.Drawing.Point(256, 193);
             this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(120, 26);
+            this.numericUpDown4.Size = new System.Drawing.Size(120, 30);
             this.numericUpDown4.TabIndex = 12;
             // 
             // numericUpDown3
             // 
             this.numericUpDown3.Location = new System.Drawing.Point(256, 153);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(120, 26);
+            this.numericUpDown3.Size = new System.Drawing.Size(120, 30);
             this.numericUpDown3.TabIndex = 11;
             // 
             // numericUpDown2
             // 
             this.numericUpDown2.Location = new System.Drawing.Point(256, 117);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(120, 26);
+            this.numericUpDown2.Size = new System.Drawing.Size(120, 30);
             this.numericUpDown2.TabIndex = 10;
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(256, 76);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 26);
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 30);
             this.numericUpDown1.TabIndex = 9;
             // 
             // label29
@@ -569,16 +581,16 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label29.AutoSize = true;
             this.label29.Location = new System.Drawing.Point(312, 276);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(66, 18);
+            this.label29.Size = new System.Drawing.Size(100, 22);
             this.label29.TabIndex = 7;
-            this.label29.Text = "label29";
+            this.label29.Text = "_________";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(127, 276);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(155, 18);
+            this.label28.Size = new System.Drawing.Size(187, 22);
             this.label28.TabIndex = 6;
             this.label28.Text = "ÖDENECEK TUTAR";
             // 
@@ -587,7 +599,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(127, 233);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(38, 18);
+            this.label27.Size = new System.Drawing.Size(46, 22);
             this.label27.TabIndex = 5;
             this.label27.Text = "LPG";
             // 
@@ -596,7 +608,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(127, 198);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(101, 18);
+            this.label26.Size = new System.Drawing.Size(123, 22);
             this.label26.TabIndex = 4;
             this.label26.Text = "EURO DİZEL";
             // 
@@ -605,7 +617,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(127, 158);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(51, 18);
+            this.label25.Size = new System.Drawing.Size(64, 22);
             this.label25.TabIndex = 3;
             this.label25.Text = "DİZEL";
             // 
@@ -614,7 +626,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(127, 122);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(99, 18);
+            this.label24.Size = new System.Drawing.Size(122, 22);
             this.label24.TabIndex = 2;
             this.label24.Text = "BENZİN (97)";
             // 
@@ -623,7 +635,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(127, 81);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(99, 18);
+            this.label23.Size = new System.Drawing.Size(122, 22);
             this.label23.TabIndex = 1;
             this.label23.Text = "BENZİN (95)";
             // 
@@ -632,7 +644,7 @@ namespace AkaryakıtOtomasyonUygulaması
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(127, 36);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(107, 18);
+            this.label22.Size = new System.Drawing.Size(129, 22);
             this.label22.TabIndex = 0;
             this.label22.Text = "YAKIT TÜRÜ";
             // 
@@ -640,8 +652,8 @@ namespace AkaryakıtOtomasyonUygulaması
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Peru;
-            this.ClientSize = new System.Drawing.Size(740, 389);
+            this.BackColor = System.Drawing.Color.Red;
+            this.ClientSize = new System.Drawing.Size(704, 400);
             this.Controls.Add(this.tabControl1);
             this.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
